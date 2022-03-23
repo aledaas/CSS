@@ -17,10 +17,6 @@ img { border: none; }
   margin: 0 auto;
 }
 
-#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
-  border: 2px solid #777;
-}
-
 #cabecera { clear: both; }
 #menu { clear: both; }
 #lateral { float: left; width: 20%; }
@@ -47,4 +43,123 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
-   
+
+   *{font-family: Arial, Helvetica, sans-serif}
+
+   #cabecera{
+     margin-bottom: .5em;
+     margin-left: .3em;
+   }
+
+   #buscador{
+     font-size: .9em;
+     margin-right: 1.5em;
+   }
+
+   h1 span{
+     color: #c60;
+     font-style: normal;
+     letter-spacing: .05em;
+    }
+
+    #contenido{margin-top: .5em}
+
+img{margin: .5em;}
+
+.articulo h2{
+color: #c60;
+font-size: 1.6em;
+line-height: 1.2;
+margin-left: .3em;
+margin-bottom: .3em;
+}
+
+.articulo a{color: #c60;
+  margin-top
+}
+.articulo p{;
+  font-size: .9em;
+  color: black;
+  line-height: 1.4;
+  margin-top: .3em;
+  margin-bottom: .5em;
+}
+
+#menu_principal li a{
+  font-size: 1.3em;
+  color: rgb(255, 255, 255);
+  margin-right: 1em;}
+  
+div #menu{
+  padding: 0.2em;
+  background: #294AA5 ;
+  border-top: #315AC6 solid 0.4em;
+}
+
+#lateral{font-size: 0.9em;}
+
+.fecha{color: #999;}
+
+div #noticias {
+  padding: .3em;
+  background: #F0F0F0;
+  border: #555 solid .1em;
+  margin-bottom: .8em;
+  margin-top: .5em;
+}
+
+#noticias h3{color: #036;}
+
+div #publicidad{
+  padding: .3em;
+  background: #FFF7CE;
+  border: #c60 dashed .1em;
+  margin-bottom: .7em;
+  margin-top: .6em;
+}
+
+#publicidad{color: #555;}
+#publicidad a{color: #c60;}
+
+#secundario{
+  padding: .7%;
+  border: #c60 solid .1em;
+  width: auto;
+  height: auto;
+  margin: auto
+}
+div #secundario h2{
+  background-color: #c60;
+  color: white;
+  width: 8.5em;
+  font-size: 1em;
+  text-align: center;
+  margin: .2em;
+  margin-top: .3em;
+  margin-bottom: none
+}
+#secundario p{
+  text-align: left;
+  font-size: .9em;
+  line-height: 1.4em;
+  margin: .3em;
+}
+
+div #pie{
+  padding: .2em;
+  background-color: #F0F0F7;
+  border: #555 solid .1em;
+
+}
+
+.copyright{
+  font-size: .7em;
+  margin: .3em;
+  text-align: center;
+  color: #555;
+}
+
+.enlaces a{
+  font-size: 0.7em;
+  margin-right: .2em;
+}
