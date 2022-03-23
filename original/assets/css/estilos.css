@@ -44,14 +44,17 @@ body { font-size: 0.9em;
 #menu ul#menu_principal li { display: inline; float: left; }
 #menu li {margin-right: 1em; font-size: 1.3em; color:white}
 .fecha {text-align:justify;color:#999}
-#noticias h3 {color: #003366;}
+
 /*-- Sección Principal -----------------------------------------------*/
 #contenido #principal .articulo img { width: 100px; float: left; }
 .articulo h2 {color: #CC6600; font-size: 1.6em; height: 1.2; margin-bottom: 0.3em;}
-#publicidad a {color: #555;}
-#publicidad p {color: #CC6600;}
+#publicidad a {color:#CC6600 ;}
+#publicidad p {color: #555;}
 .articulo a {color: #CC6600;}
 .articulo p {margin-top: 0.3em; margin-bottom: 0.3em;}
+#noticias h3 {color: #003366;}
+#noticias {background-color: rgba(216, 222, 228, 0.712); padding: 2px;}
+#publicidad {background-color: rgba(207, 204, 154, 0.712); padding: 2px;}
 /*---Secundario------------------------*/
 #secundario h2 {font-weight: bold; background-color: #CC6600;} 
 #secundario p {font-family:'Times New Roman', Times, serif; font-size: 1.1em;}
