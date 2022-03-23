@@ -9,6 +9,7 @@ h1, h2, h3, p, form { margin: 0; padding: 0; }
 .clear { clear: both; }
 img { border: none; }
 
+
 /*-- Layout ----------------------------------------------------------*/
 #contenedor {
   width: 90%;
@@ -17,10 +18,16 @@ img { border: none; }
   margin: 0 auto;
 }
 
+body { font-size: 0.9em;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4;}
+
+
 #cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
   border: 2px solid #777;
 }
-
+#lateral {font-size: 0.9em;}
 #cabecera { clear: both; }
 #menu { clear: both; }
 #lateral { float: left; width: 20%; }
@@ -35,9 +42,19 @@ img { border: none; }
 
 /*-- Menu ------------------------------------------------------------*/
 #menu ul#menu_principal li { display: inline; float: left; }
-
+#menu li {margin-right: 1em; font-size: 1.3em; color:white}
+.fecha {text-align:justify;color:#999}
+#noticias h3 {color: #003366;}
 /*-- Sección Principal -----------------------------------------------*/
 #contenido #principal .articulo img { width: 100px; float: left; }
+.articulo h2 {color: #CC6600; font-size: 1.6em; height: 1.2; margin-bottom: 0.3em;}
+#publicidad a {color: #555;}
+#publicidad p {color: #CC6600;}
+.articulo a {color: #CC6600;}
+.articulo p {margin-top: 0.3em; margin-bottom: 0.3em;}
+/*---Secundario------------------------*/
+#secundario h2 {font-weight: bold; background-color: #CC6600;} 
+#secundario p {font-family:'Times New Roman', Times, serif; font-size: 1.1em;}
 
 /*-- Pie de página ---------------------------------------------------*/
 #pie .enlaces   { float: left; }
