@@ -3,9 +3,50 @@
    que la página se vea correctamente.
    ================================================================== */
 
+ /* Tarea */  
+
+ body{
+   color: rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+   size: 0.9em;
+   line-height: 1.4;
+
+ }
+
+ h2{
+   color: #CC6600;
+   size: 1.6em ;
+   line-height: 1.4;
+   margin-bottom: 0.3em;
+ }
+ .h2nuevo {
+   color: rgb(255, 255, 255);
+   background-color: #CC6600;
+ }
+
+ .h3pub {
+   color: #CC6600;
+ }
+
+ h1{
+  color: #CC6600;
+}
+
+.imagen{
+  padding: 10px;
+}
+
+#secundario {
+  border-style: solid;
+  border-color: #CC6600;
+  border-radius: 1px;
+  margin: 5px;
+  padding: 10px;
+}
+
 /*-- Básico ----------------------------------------------------------*/
 ul, ul li { margin: 0; padding: 0; list-style: none; }
-h1, h2, h3, p, form { margin: 0; padding: 0; }
+h1, p, form { margin: 0; padding: 0; }
 .clear { clear: both; }
 img { border: none; }
 
@@ -18,16 +59,23 @@ img { border: none; }
 }
 
 #cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
-  border: 2px solid #777;
+  /* border: 2px solid #777; */
 }
 
 #cabecera { clear: both; }
-#menu { clear: both; }
-#lateral { float: left; width: 20%; }
-#contenido { float: right; width: 78%; }
-#contenido #principal { float: left; width: 78%; }
+#menu {background-color: #3219a0; line-height: 40px;  }
+#menu_principal .aref {color: #ffffff; padding-left: 15px; display: inline-block;}
+#lateral { float: left; width: 20%; size: 0.9em;  }
+span.fecha { color: #999; display: block}
+#contenido { float: right; width: 73%; }
+#contenido #principal { float: left; width: 73%; }
 #contenido #secundario { float: right; width: 20%; }
 #pie { clear: both; }
+
+#publicidad { background-color: #fff7ce; border-color: rgb(216, 85, 8); border-width: 3px; border-style: dotted; margin-top: 1em;}
+
+#noticias { background-color: #e7e6e6 ; border-color: rgb(168, 166, 164); border-width: 3px; border-style: solid;}
+
 
 /*-- Cabecera --------------------------------------------------------*/
 #cabecera #logo { float: left; }
@@ -40,8 +88,9 @@ img { border: none; }
 #contenido #principal .articulo img { width: 100px; float: left; }
 
 /*-- Pie de página ---------------------------------------------------*/
-#pie .enlaces   { float: left; }
-#pie .copyright { float: right; }
+#pie {background-color: rgb(211, 207, 207); border-style: solid; border-color: #999; margin: 10px 0px 10px 0px;}
+#pie .enlaces   { float: left; margin: 10px 0px 10px 10px; }
+#pie .copyright { float: right; margin: 10px 5px 10px 0px;}
 
 /* === IMPORTANTE ===================================================
    A partir de aquí, se pueden añadir todos los estilos propios que 
