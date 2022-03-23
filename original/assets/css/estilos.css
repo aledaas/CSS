@@ -30,8 +30,9 @@ img { border: none; }
 #pie { clear: both; }
 
 /*-- Cabecera --------------------------------------------------------*/
-#cabecera #logo { float: left; }
+#cabecera #logo { float: left; color: #CC6600;}
 #cabecera #buscador { float: right; }
+
 
 /*-- Menu ------------------------------------------------------------*/
 #menu ul#menu_principal li { display: inline; float: left; }
@@ -48,3 +49,10 @@ img { border: none; }
    sean necesarios.
    ================================================================== */
    
+   body {font-family: Arial, Helvetica, sans-serif; color: black; font-size: 0.9em; line-height: 1.4;}
+   .articulo h2 {color: #CC6600; font-size: 1.6em; line-height: 1.2; margin-bottom: 0.3em;}
+   .lateral {font-size: 0.9em; color: #999;}
+   .noticias h3 {color: #036}
+   .articulo a {color: #cc6600;}
+   .menu {margin-right: 1em;color: white; font-size: 1.3em;}
+   p {margin-top: 0.3em; margin-bottom: 0.3em;}
