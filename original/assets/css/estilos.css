@@ -30,6 +30,7 @@ body { font-size: 0.9em;
 #cabecera, #menu,   #pie {
   border: 2px solid #777;
 }
+#menu {background-color: #003366;}
 #publicidad {
   border: 2px dotted rgba(119, 119, 119, 0.781);
 }
@@ -50,7 +51,7 @@ body { font-size: 0.9em;
 
 /*-- Menu ------------------------------------------------------------*/
 #menu ul#menu_principal li { display: inline; float: left; }
-#menu li {margin-right: 1em; font-size: 1.3em; color:white}
+#menu a {margin-right: 1em; font-size: 1.3em; color:white}
 .fecha {text-align:justify;color:#999}
 
 /*-- Sección Principal -----------------------------------------------*/
