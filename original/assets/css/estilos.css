@@ -23,10 +23,17 @@ body { font-size: 0.9em;
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.4;}
 
-
+/* Asi era el original
 #cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
   border: 2px solid #777;
+}*/
+#cabecera, #menu,   #pie {
+  border: 2px solid #777;
 }
+#publicidad {
+  border: 2px dotted rgba(119, 119, 119, 0.781);
+}
+
 #lateral {font-size: 0.9em;}
 #cabecera { clear: both; }
 #menu { clear: both; }
@@ -35,6 +42,7 @@ body { font-size: 0.9em;
 #contenido #principal { float: left; width: 78%; }
 #contenido #secundario { float: right; width: 20%; }
 #pie { clear: both; }
+#secundario {border: 1px solid rgba(252, 135, 26, 0.781);margin: 5px;}
 
 /*-- Cabecera --------------------------------------------------------*/
 #cabecera #logo { float: left; }
@@ -52,9 +60,10 @@ body { font-size: 0.9em;
 #publicidad p {color: #555;}
 .articulo a {color: #CC6600;}
 .articulo p {margin-top: 0.3em; margin-bottom: 0.3em;}
+.articulo {margin: 5px;}
 #noticias h3 {color: #003366;}
-#noticias {background-color: rgba(216, 222, 228, 0.712); padding: 2px;}
-#publicidad {background-color: rgba(207, 204, 154, 0.712); padding: 2px;}
+#noticias {background-color: rgba(216, 222, 228, 0.712); padding: 2px; border: 2px dotted rgba(119, 119, 119, 0.781); margin: 5px;}
+#publicidad {background-color: rgba(207, 204, 154, 0.712); padding: 2px;margin: 5px;}
 /*---Secundario------------------------*/
 #secundario h2 {font-weight: bold; background-color: #CC6600;} 
 #secundario p {font-family:'Times New Roman', Times, serif; font-size: 1.1em;}
@@ -62,6 +71,7 @@ body { font-size: 0.9em;
 /*-- Pie de página ---------------------------------------------------*/
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
+#pie {background-color: rgb(231, 229, 229);font-family:'Times New Roman', Times, serif;}
 
 /* === IMPORTANTE ===================================================
    A partir de aquí, se pueden añadir todos los estilos propios que 
