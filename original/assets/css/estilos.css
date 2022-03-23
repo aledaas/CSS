@@ -9,6 +9,9 @@ h1, h2, h3, p, form { margin: 0; padding: 0; }
 .clear { clear: both; }
 img { border: none; }
 
+
+
+
 /*-- Layout ----------------------------------------------------------*/
 #contenedor {
   width: 90%;
@@ -17,9 +20,7 @@ img { border: none; }
   margin: 0 auto;
 }
 
-#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
-  border: 2px solid #777;
-}
+ 
 
 #cabecera { clear: both; }
 #menu { clear: both; }
@@ -47,4 +48,99 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
-   
+   body{
+    color:black;
+    font-size: 0.9em;
+    line-height: 1.4em;
+  
+  }
+  .articulo h2{
+    color: #cc6600;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+  }
+  #menu a{
+    margin-right: 1em;
+    color: white;
+    font-size: 1.3em;
+  }
+  #menu{
+    background-color: blue;
+  }
+  #lateral{
+    font-size: 00.9em;
+  }
+  #lateral .fecha{
+    display: block;
+    color: #999;
+  }
+  #noticias a{
+    color: #036;
+  }
+  #publicidad p{
+    color: #555;
+  }
+  #publicidad a{
+    color: #cc6600;
+  }
+  .articulo a{
+    color: #cc6600;
+  }
+  .articulo p{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  #secundario{
+    padding: 5px;
+    border: 2px solid #cc6600;
+    margin-top: 10px;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  #cabecera{
+    margin-bottom: 20px;
+  }
+  #logo span{
+    color: #cc6600;
+  }
+  #menu_principal li{
+    padding: 10px;
+  }
+  #noticias{
+    background-color: rgb(224, 219, 219);
+    border: 2px solid rgb(189, 186, 186);
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  #publicidad{
+    background-color: rgb(233, 229, 171);
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px dotted #cc6600 ;
+  }
+  #principal{
+    margin-top: 10px;
+  }
+  #principal img{
+    margin-right: 10px;
+  }
+  #secundario h2{
+    background-color: #cc6600;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 2px;
+  }
+  #secundario p{
+    padding-top: 5px;
+  }
+  #pie{
+    background-color:rgb(224, 219, 219) ;
+    padding: 5px;
+    margin-top:5px;
+    border-top: 2px solid rgb(189, 186, 186);
+    border-bottom: 2px solid rgb(189, 186, 186);
+  }
