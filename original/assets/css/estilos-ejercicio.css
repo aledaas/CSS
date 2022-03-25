@@ -2,6 +2,14 @@ html{
     font-size: 0.9em;
     line-height: 1.4em;
 }
+h1{
+    color: #cc6600;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 1em;
+}
+.articulo{
+    width: 71%;
+}
 .articulo > h2{
     color: #cc6600;
     font-size: 1.6em;
@@ -16,7 +24,7 @@ html{
 }
 .articulo>p{
     margin-top: 0.3em;
-    margin-bottom: ;
+    margin-bottom: 0.3em;
 }
 #menu_principal>li>a{
     color: white;
@@ -28,7 +36,8 @@ html{
 }
 #menu{
     background-color: #003366;
-    padding: 1em;
+    padding: .3em;
+    border: solid #02488f thick;
 }
 #lateral{
     font-size: 0.9em;
@@ -54,7 +63,7 @@ html{
 #publicidad{
     border-style: dashed;
     border-color: #cc6600;
-    background-color: #ffd769a6;
+    background-color: #fde296a6;
     padding: 1em;
 }
 #publicidad >h3>a:link, #publicidad >p>a:link{
@@ -66,6 +75,7 @@ html{
 #secundario{
     border-style: solid;
     border-color: #cc6600;
+    padding: 0.5em;
 }
 #secundario>h2{
     background-color: #cc6600b9;
@@ -73,4 +83,10 @@ html{
     font-size: 1em;
     margin-bottom: 1em;
     margin-top: 1em;
+}
+.articulo>p{
+    text-align:justify;
+}
+.articulo > img{
+    padding: 1em;
 }
