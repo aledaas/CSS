@@ -17,8 +17,8 @@ img { border: none; }
   margin: 0 auto;
 }
 
-#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
-  border: 2px solid #777;
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secudario, #pie {
+  border: 2px solid #fff;
 }
 
 #cabecera { clear: both; }
@@ -47,4 +47,6 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
-   
+   #contenido #principal{
+     width: 76%;
+   }
