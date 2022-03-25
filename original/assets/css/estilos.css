@@ -47,6 +47,6 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
-   #principal{
+   #contenido #principal{
      width: 76%;
    }
