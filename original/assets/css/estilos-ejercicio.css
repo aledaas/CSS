@@ -49,7 +49,8 @@ h1{
 #noticias{
     border: solid #999;
     padding: 0.7em;
-    margin: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 #noticias > h3 > a:link{
     color: #003366;
