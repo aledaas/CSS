@@ -57,8 +57,7 @@ img { border: none; }
    #menu #menu_principal li { margin: 0.3em;}
    #menu #menu_principal li a { margin-right: 1em; color: white; font-size: 1.3em;}
    #lateral {font-size: 0.9em}
-   #lateral #noticias p {width: 100%;}
-   .fecha {color: #999;  width: 100%}
+   #lateral #noticias span.fecha {display: block; color: #999;} 
    #noticias {margin: 0.3em; padding: 0.3em;border-style: dotted;  border-color: #555; border-width: 1px; background-color: #DDD;}
    #noticias h3 {color: #036}
    #publicidad {margin: 0.3em; padding: 0.3em; color:#555; background-color:blanchedalmond; border-style: dotted; border-width: 1px; border-color: #CC6600;}
