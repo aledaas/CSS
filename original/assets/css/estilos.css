@@ -47,4 +47,24 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
-   
+/*-- Básico ----------------------------------------------------------*/
+body { font-family: Arial, Helvetica, sans-serif; font-size: 0.9em;line-height: 1.4em;}
+
+/*-- Menu ------------------------------------------------------------*/
+#menu { margin-right: 1em; font-size: 1.3em;}
+#menu .link { color: white;}
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo h2 {color: #CC6600 ; font-size: 1.6em; line-height: 1.2em; margin-bottom: 0.3em}
+#contenido #principal .articulo p {margin: 0.3em;}
+.enlaceart{color: #CC6600;}
+
+#lateral {font-size: 0.9em;}
+#lateral .fecha {color: #999;}
+
+
+#noticias .h3noti {color:#003366}
+
+#publicidad {color:#555}
+.enlacepub { color:#CC6600}
+
