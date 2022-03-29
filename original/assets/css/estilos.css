@@ -1,8 +1,3 @@
-/* === IMPORTANTE ===================================================
-   No modificar estos estilos, ya que son imprescindibles para
-   que la página se vea correctamente.
-   ================================================================== */
-
 /*-- Básico ----------------------------------------------------------*/
 ul, ul li { margin: 0; padding: 0; list-style: none; }
 h1, h2, h3, p, form { margin: 0; padding: 0; }
@@ -30,7 +25,7 @@ img { border: none; }
 #pie { clear: both; }
 
 /*-- Cabecera --------------------------------------------------------*/
-#cabecera #logo { float: left; }
+#cabecera #logo { float: left; color: black}
 #cabecera #buscador { float: right; }
 
 /*-- Menu ------------------------------------------------------------*/
@@ -43,79 +38,80 @@ img { border: none; }
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
 
-/* === IMPORTANTE ===================================================
-   A partir de aquí, se pueden añadir todos los estilos propios que 
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que
    sean necesarios.
-   ================================================================== */
+   ================= */
 
-   body {
-     font: .9em/1.4 Arial, Helvetica, sans-serif;
-     color: #000
-   }
-   
-   #cabecera,
-   #menu,
-   #lateral,
-   #lateral #noticias,
-   #contenido,
-   #contenido #principal,
-   #contenido #secundario,
-   #pie {
-     padding:.5em;
-     border: none;
-   }
+body {
+  font: .9em/1.4 Arial, Helvetica, sans-serif;
+  color: #000;
+}
 
-   #lateral {
-     padding: 1em;
-   }
-   
-   #cabecera h1 {
-     background: url(../comun/imagenes/logo.gif) no-repeat -5px -5px;
-   }
-   
-   #cabecera h1 span {
-     visibility: hidden;
-   }
+#cabecera,
+#menu,
+#lateral,
+#lateral #noticias,
+#lateral #publicidad,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  padding: .5em;
+  border: none;
+}
 
-   #menu {
-     margin-bottom: .5em;
-     border-bottom: 1px solid #004c99;
-     background: url(../comun/imagenes/fondo_menu.gif) repeat-x;
-   }
+#lateral {
+  padding: 0;
+  font-size: .9em;
+}
 
-   #menu li {
-margin-right: 1em;
-font-size: 1em;
+#cabecera {
+  padding: 1em;
+}
 
-  }
 
-  #menu li a {
-    color: #fff;
-  }
+#cabecera h1 span {
+  color: black;
+}
 
-  #contenido {
-    width: 77%;
-    padding: 0%;
-  }
+#menu {
+  margin-bottom: .5em;
+  border-bottom: 1px solid #004C99;
+  background: #004C99;
+}
 
-  #contenido #principal { 
-    width:73%;
-  }
+#menu li {
+  margin-right: 1em;
+  font-size: 1.3em;
+}
 
-  #contenido #secundario {
-    border: 1px solid #c60;
-  }
+#menu li a {
+  color: #FFF;
+}
 
-  #contenido #secundario h2 {
-    background: #DB905C;
-    padding: .2em;
-    font-size: 1em;
-    color: #fff
+#contenido {
+  width: 77%;
+  padding: 0;
+}
 
-  }
+#contenido #principal {
+  width: 73%;
+}
+
+#contenido #secundario {
+  border: 1px solid #C60;
+}
+
+#contenido #secundario h2 {
+  background: #DB905C;
+  padding: .2em;
+  font-size: 1em;
+  color: #FFF;
+}
 
 #contenido #secundario p {
-  margin: .5em;
+  margin: .5em 0;
 }
 
 #pie {
@@ -123,39 +119,37 @@ font-size: 1em;
   margin-top: 1em;
   border-top: 1px solid #C5C5C5;
   border-bottom: 1px solid #C5C5C5;
-  background: #f8f8f8;
+  background: #F8F8F8;
   color: #555;
   font-size: .75em;
 }
 
-#contenido #principal .articulo
-{
+#contenido #principal .articulo {
   margin-bottom: 1em;
 }
 
 #contenido #principal .articulo p {
-color: #c60;
+  margin: .3em 0;
 }
-#contenido #principal .articulo a {
-color: #c60;
 
+#contenido #principal .articulo a {
+  color: #C60;
 }
-#contenido #principal .articulo h2 
-{
-  color: #c60;
+
+#contenido #principal .articulo h2 {
+  color: #C60;
   font-size: 1.6em;
   line-height: 1.2;
   margin-bottom: .3em;
 }
-#contenido #principal .articulo img 
-{
-  margin: .5em;
 
+#contenido #principal .articulo img {
+  margin: .5em;
 }
 
 #lateral #noticias {
   border: 1px solid #C5C5C5;
-  background: #f8f8f8;
+  background: #F8F8F8;
 }
 
 #lateral #noticias h3 {
@@ -169,11 +163,11 @@ color: #c60;
 
 #lateral #publicidad {
   margin-top: 1em;
-  border: 1px dashed #c60;
+  border: 1px dashed #C60;
   background: #FFF6CD;
   color: #555;
 }
 
 #lateral #publicidad a {
-  color: #c60;
+  color: #C60;
 }
