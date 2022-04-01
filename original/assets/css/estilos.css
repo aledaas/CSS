@@ -45,7 +45,7 @@ img { border: none; }
 
 body {
   font: .9em/1.4 Arial, Helvetica, sans-serif;
-  color: rgb(42, 28, 102);
+  color:#000;
 }
 
 #cabecera,
